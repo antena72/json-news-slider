@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+  }
+  body {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+  }
+
+  #miContenedor section {
+    clear: both;
+    padding: 85px 0 0 0;
+  }
+  #miContenedor section h2 {
+    padding: 30px;
+  }
+
+  #miContenedor section #novedades {
+    background: #bebebe;
+    padding-bottom: 200px;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades {
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    max-width: 1020px;
+    overflow: hidden;
+    padding: 50px 2% 0;
+    width: 96%;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades {
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades {
+    clear: both;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+    width: 950px;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery {
+    position: relative;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery .crsl-item {
+    background: #fff;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery .crsl-item div {
+    padding: 10px 10px 20px;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery .crsl-item div h3 {
+    font-weight: bold;
+    padding: 20px 10px;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery .crsl-item div p {
+    padding: 0 10px 10px;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery .crsl-item div a {
+    padding: 10px;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery .crsl-item .mes-activo {
+    opacity: 1 !important;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades .crsl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 50;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades .crsl-nav a.next {
+    color: #999;
+    position: absolute;
+    padding: 10px;
+    right: 0;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades .crsl-nav a.previous {
+    color: #999;
+    position: absolute;
+    padding: 10px;
+    left: 0;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades .mes-activo {
+    opacity: 1 !important;
+  }
+  #miContenedor section #novedades .masInfo {
+    background: #404040;
+    display: none;
+    margin: 0 auto;
+    padding-top: 40px;
+    position: relative;
+    width: 100%;
+  }
+  #miContenedor section #novedades .masInfo #cierre {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  #miContenedor section #novedades .masInfo div {
+    margin: 0 auto;
+    padding: 0 20px 20px;
+    width: 950px;
+  }
+  #miContenedor section #novedades .masInfo div h3 {
+    font-size: 30px;
+    margin: 20px;
+    width: 80%;
+  }
+  #miContenedor section #novedades .masInfo div p {
+    font-size: 16px;
+    margin: 20px;
+    width: 80%;
+  }
+  #miContenedor section #postNovedades {
+    background: #bebebe;
+    height: 400px;
+  }
+
+  .boxSeccion {
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    min-height: 900px;
+    max-width: 1020px;
+    overflow: hidden;
+    padding: 50px 2%;
+    width: 96%;
+  }
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media (max-width: 768px) {
+    #miContenedor section h2 {
+      margin: 10px 20px;
+    }
+    #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades {
+      margin: auto;
+      width: 96%;
+    }
+    #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades {
+      margin: auto;
+      width: 96%;
+    }
+    #miContenedor section #novedades .masInfo {
+      width: 100%;
+    }
+    #miContenedor section #novedades .masInfo div {
+      width: 90%;
+    }
+    .boxSeccion {
+      margin: 0 auto;
+      padding: 0;
+      width: 100%;
+    }
+  }
+  @media (max-width: 375px) {
+    #miContenedor section h2 {
+      margin: 0;
+      text-align: center;
+    }
+    #miContenedor section #novedades #box2 {
+      background: #808080;
+      margin: 20px auto;
+      width: 60%;
+    }
+
+    
+  }
+  .fondoVerde {
+    background: #b4be00;
+  }
+  .fondoGrisClarito {
+    background: #ccc;
+  }
+  .fondoGrisBe {
+    background: #bebebe;
+  }
+  .fondoGrisMedio {
+    background: #666;
+  }
+  .txtBlanco {
+    color: #fff;
+  }
+  .txtVerde {
+    color: #b4be00;
+  }
+  .txtGrisClarito {
+    color: #ccc;
+  }
+  .txtGrisMedio {
+    color: #666;
+  }
+  .txtGrisOscuro {
+    color: #555;
+  }
+  .txtGris9 {
+    color: #999;
+  }
+  .txtNegro {
+    color: #000;
+  }
+  .txt11 {
+    font-size: 11px;
+  }
+  .txtNegrita {
+    font-weight: bold;
+  }
+  .floatRight {
+    float: right;
+  }
+  .floatLeft {
+    float: left;
+  }
+  
