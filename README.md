@@ -7,3 +7,5 @@ Utilicé el slider basilio como base para el api
  *
  * Copyright (c) 2018 Basilio Cáceres <basilio.caceres@gmail.com>;
  * Licensed under the MIT license */
+ 
+ DEMO https://antena72.github.io/json-news-slider/.
